@@ -3,4 +3,5 @@ DS_store
 .cache
 assets
 dist
+yarn.lock
 
