@@ -3244,6 +3244,11 @@ needle@^2.2.1:
     iconv-lite "^0.4.4"
     sax "^1.2.4"
 
+newlinepoint@0.2.x:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/newlinepoint/-/newlinepoint-0.2.0.tgz#5fbc011a028ced47d5caa2dab35aa682d492651c"
+  integrity sha1-X7wBGgKM7UfVyqLas1qmgtSSZRw=
+
 nice-try@^1.0.4:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
@@ -4179,6 +4184,16 @@ quote-stream@^1.0.1, quote-stream@~1.0.2:
     minimist "^1.1.3"
     through2 "^2.0.0"
 
+quotes@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/quotes/-/quotes-0.2.0.tgz#ae76fef7594a7fa246ac5e51754462b519d8327c"
+  integrity sha1-rnb+91lKf6JGrF5RdURitRnYMnw=
+  dependencies:
+    newlinepoint "0.2.x"
+    reversepoint "0.2.x"
+    rfc-csv "0.2.x"
+    slicepoint "0.2.x"
+
 randombytes@^2.0.0, randombytes@^2.0.1, randombytes@^2.0.5:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/randombytes/-/randombytes-2.1.0.tgz#df6f84372f0270dc65cdf6291349ab7a473d4f2a"
@@ -4419,6 +4434,16 @@ ret@~0.1.10:
   resolved "https://registry.yarnpkg.com/ret/-/ret-0.1.15.tgz#b8a4825d5bdb1fc3f6f53c2bc33f81388681c7bc"
   integrity sha512-TTlYpa+OL+vMMNG24xSlQGEJ3B/RzEfUlLct7b5G/ytav+wPrplCpVMFuwzXbkecJrb6IYo1iFb0S9v37754mg==
 
+reversepoint@0.2.x:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/reversepoint/-/reversepoint-0.2.1.tgz#d2ac3ff4d665cf0ff72296b7a78ee7237f6593f5"
+  integrity sha1-0qw/9NZlzw/3Ipa3p47nI39lk/U=
+
+rfc-csv@0.2.x:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/rfc-csv/-/rfc-csv-0.2.1.tgz#fc63e2b775a01fc5ee6d91d9ee65adb437d35b80"
+  integrity sha1-/GPit3WgH8XubZHZ7mWttDfTW4A=
+
 rgb-regex@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/rgb-regex/-/rgb-regex-1.0.1.tgz#c0e0d6882df0e23be254a475e8edd41915feaeb1"
@@ -4583,6 +4608,11 @@ simple-swizzle@^0.2.2:
   integrity sha1-pNprY1/8zMoz9w0Xy5JZLeleVXo=
   dependencies:
     is-arrayish "^0.3.1"
+
+slicepoint@0.2.x:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/slicepoint/-/slicepoint-0.2.0.tgz#068c564b27054960c9433479b3defdb52f931906"
+  integrity sha1-BoxWSycFSWDJQzR5s979tS+TGQY=
 
 snapdragon-node@^2.0.1:
   version "2.1.1"
